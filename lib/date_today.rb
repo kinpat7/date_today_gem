@@ -1,5 +1,11 @@
 require "date_today/version"
+require "date"
 
 module DateToday
-  # Your code goes here...
+  class Date
+    def today
+      # Date.today
+      DateTime.now
+    end
+    end
 end
